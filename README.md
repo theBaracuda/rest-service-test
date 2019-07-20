@@ -3,9 +3,14 @@ Test set up to understand the usage of git via graphical user interface
 
 This is just a test account to get familiar with the various features of Git and Github
 
+### Type One APIs
+
     GET     /api/download (com.dropwizard.TaskResource)
     GET     /api/tasks (com.dropwizard.TaskResource)
     POST    /api/tasks (com.dropwizard.TaskResource)
+    
+### Type Two APIs
+
     DELETE  /api/tasks/{taskId} (com.dropwizard.TaskResource)
     GET     /api/tasks/{taskId} (com.dropwizard.TaskResource)
     PUT     /api/tasks/{taskId} (com.dropwizard.TaskResource)
